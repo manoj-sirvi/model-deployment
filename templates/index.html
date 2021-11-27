@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block head %}
+    <title>SiPP Home</title>
+{% endblock %}
+{% block body %}
+    <form action = 'viewPolicy' method = 'POST'>
+        <label for = 'policy'>Select Policy</label>
+        <br>
+        <br>
+        <select class = 'policy' name = 'policy'>
+            <option id = 'shop_pol' value = 'amazon'>amazon</option>
+            <option id = 'shop_pol' value = 'flipkart'>flipkart</option>
+            <option id = 'social_pol' value = 'facebook'>facebook</option>
+            <option id = 'social_pol' value = 'linkedin'>linkedin</option>
+            <option id = 'chat_pol' value = 'telegram'>telegram</option>
+            <option id = 'chat_pol' value = 'whatsapp'>whatsapp</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="submit_policy"></input>
+    </form>
+{% endblock %}
