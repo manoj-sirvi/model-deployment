@@ -34,7 +34,7 @@ packaging==21.3
 pandas==1.1.5
 pathy==0.6.1
 Pillow==8.4.0
-pkg_resources==0.0.0
+# pkg_resources==0.0.0
 preshed==3.0.6
 pycodestyle==2.8.0
 pydantic==1.8.2
